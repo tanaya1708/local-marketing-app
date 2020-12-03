@@ -1,1 +1,1 @@
-# local-marketing-app
+# local-marketing-app - simple email marketing prototype
