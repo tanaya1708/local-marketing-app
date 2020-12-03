@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    package="it.te.localmarket"
+    platformBuildVersionCode="26"
+    platformBuildVersionName="8.0.0">
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="26" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:theme="@ref/0x7f0900a6"
+        android:label="@ref/0x7f070021"
+        android:icon="@ref/0x7f030000"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@ref/0x7f030001">
+
+        <activity
+            android:name="it.te.localmarket.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@ref/0x7f0900a8"
+            android:label="@ref/0x7f07002a"
+            android:name="it.te.localmarket.UsersActivity" />
+
+        <activity
+            android:name="it.te.localmarket.EmailActivity" />
+    </application>
+</manifest>
